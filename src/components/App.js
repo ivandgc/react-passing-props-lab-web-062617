@@ -4,7 +4,7 @@ import FruitBasket from './FruitBasket';
 class App extends React.Component {
   state = {
     filters: [],
-    currentFilter: null,
+    currentFilter: 'all',
     fruit: []
   }
 
